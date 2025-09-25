@@ -1,0 +1,36 @@
+# file of the system
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+vendor/
+
+# build
+dist/
+build/
+*.log
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# Shopify CLI Files
+.shopify/
+shopify.theme.toml
+
+# temp files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Coverage / tests
+coverage/
+.nyc_output/
+
+# IDEs / code editor
+.vscode/
+.idea/
+*.iml
