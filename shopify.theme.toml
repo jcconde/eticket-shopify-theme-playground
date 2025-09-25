@@ -1,0 +1,9 @@
+# ✅ Staging: by default we work on staging theme
+[environments.default]
+store = "bfcbeef"
+theme_id = "134755352639"
+
+# ⚠️ Production: we must use it to release only
+[environments.production]
+store = "bfcbeef"
+theme_id = "134735626303"
