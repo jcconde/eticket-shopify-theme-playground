@@ -291,6 +291,19 @@
       >
     {%- endif -%}
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+      {{ 'vendor-bootstrap.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-bootstrap-select.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-bootstrap-slider.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-jquery.scrolling-tabs.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-bootstrap-checkbox.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-flexslider.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-featherlight.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-font-awesome.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-bootstrap.offcanvas.min.css' | asset_url | stylesheet_tag }}
+      {{ 'vendor-core.css' | asset_url | stylesheet_tag }}
+      {{ 'eticket-theme.css' | asset_url | stylesheet_tag }}
+      {{ 'eticket-theme-responsive.css' | asset_url | stylesheet_tag }}
     <script>
       if (Shopify.designMode) {
         document.documentElement.classList.add('shopify-design-mode');
