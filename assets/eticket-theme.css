@@ -378,14 +378,14 @@ body{
 }
 
 .hero-1 .hero-content .hero-title{
-	font-size:36px;
+	/*font-size:36px;*/
 	color:#fff;
 	font-family: "Montserrat-Regular";
 	margin:0 0 20px
 }
 
 .hero-1 .hero-content .hero-caption{
-	font-size:26px;
+	/*font-size:26px;*/
 	color:#fff;
 	font-family: "Montserrat-Light";
 	margin:0 0 45px;

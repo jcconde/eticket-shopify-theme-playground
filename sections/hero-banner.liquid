@@ -1,8 +1,19 @@
 <div class="container">
     <div class="row">
         <div class="hero-content">
-            <h1 class="hero-title">Make Your Dream Come True</h1>
-            <p class="hero-caption">Meet your favorite artists, sport teams and parties</p>
+            {% assign heading_block = section.blocks | where: "type", "heading" | first %}
+            {% if heading_block %}
+                <h1 class="hero-title {{ heading_block.settings.heading_size }}">
+                    {{ heading_block.settings.title }}
+                </h1>
+            {% endif %}
+
+            {% assign subheading_block = section.blocks | where: "type", "subheading" | first %}
+            {% if subheading_block %}
+                <p class="hero-caption {{ subheading_block.settings.heading_size }}">
+                    {{ subheading_block.settings.subtitle }}
+                </p>
+            {% endif %}
             <div class="hero-search">
                 <input type="text" placeholder="Seach Artist, Team, or Venue">
             </div>
@@ -15,8 +26,102 @@
 
 {% schema %}
 {
-  "name": "hero-banner",
+  "name": "Hero banner",
   "tag": "section",
-  "class": "hero-1"
+  "class": "hero-1",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "hero_banner_1",
+      "label": "Banner 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_banner_2",
+      "label": "Banner 2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Title",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "default": "Make Your Dream Come True",
+          "label": "Title"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "label": "Heading Size",
+          "options": [
+            {
+              "value": "h0",
+              "label": "Large"
+            },
+            {
+              "value": "h1",
+              "label": "Medium"
+            },
+            {
+              "value": "h2",
+              "label": "Small"
+            },
+            {
+              "value": "hxl",
+              "label": "Extra large"
+            },
+            {
+              "value": "hxxl",
+              "label": "Extra extra large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "Subtitle",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "subtitle",
+          "default": "Meet your favorite artists, sport teams and parties",
+          "label": "Subtitle"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "label": "Heading Size",
+          "options": [
+            {
+              "value": "h0",
+              "label": "Large"
+            },
+            {
+              "value": "h1",
+              "label": "Medium"
+            },
+            {
+              "value": "h2",
+              "label": "Small"
+            },
+            {
+              "value": "hxl",
+              "label": "Extra large"
+            },
+            {
+              "value": "hxxl",
+              "label": "Extra extra large"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}
