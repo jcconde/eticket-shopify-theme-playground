@@ -1,3 +1,13 @@
+{% assign hero_url = "eticket-home-banner-hero-1-img.jpg" %}
+{% if section.settings.hero_banner_1 != blank %}
+    {% assign hero_url = section.settings.hero_banner_1 %}
+{% endif %}
+<style>
+    .hero-1 {
+        background: url("{{ hero_url | asset_url }}") no-repeat center center;
+        background-size: cover;
+    }
+</style>
 <div class="container">
     <div class="row">
         <div class="hero-content">
@@ -6,12 +16,20 @@
                 <h1 class="hero-title {{ heading_block.settings.heading_size }}">
                     {{ heading_block.settings.title }}
                 </h1>
+            {% else %}
+                <h1 class="hero-title h0">
+                    Make Your Dream Come True
+                </h1>
             {% endif %}
 
             {% assign subheading_block = section.blocks | where: "type", "subheading" | first %}
             {% if subheading_block %}
                 <p class="hero-caption {{ subheading_block.settings.heading_size }}">
                     {{ subheading_block.settings.subtitle }}
+                </p>
+            {% else %}
+                <p class="hero-caption h2">
+                    Meet your favorite artists, sport teams and parties
                 </p>
             {% endif %}
             <div class="hero-search">
@@ -34,11 +52,6 @@
       "type": "image_picker",
       "id": "hero_banner_1",
       "label": "Banner 1"
-    },
-    {
-      "type": "image_picker",
-      "id": "hero_banner_2",
-      "label": "Banner 2"
     }
   ],
   "blocks": [
@@ -57,6 +70,7 @@
           "type": "select",
           "id": "heading_size",
           "label": "Heading Size",
+          "default": "h0",
           "options": [
             {
               "value": "h0",
@@ -97,6 +111,7 @@
           "type": "select",
           "id": "heading_size",
           "label": "Heading Size",
+          "default": "h2",
           "options": [
             {
               "value": "h0",
