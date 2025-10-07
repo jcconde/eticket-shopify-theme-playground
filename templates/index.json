@@ -36,6 +36,9 @@
     "stats": {
       "type": "stats"
     },
+    "recent_videos": {
+      "type": "recent-videos"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -71,6 +74,7 @@
     "upcoming_events",
     "event_by_categories",
     "stats",
+    "recent_videos",
     "featured_collection"
   ]
 }
