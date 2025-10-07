@@ -15,6 +15,21 @@
     "today_schedule": {
       "type": "today-schedule"
     },
+    "upcoming_events": {
+      "type": "upcoming-events",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "See all upcoming events",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ]
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -47,6 +62,7 @@
   "order": [
     "hero_banner",
     "today_schedule",
+    "upcoming_events",
     "featured_collection"
   ]
 }

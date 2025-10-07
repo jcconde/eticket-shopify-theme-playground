@@ -1,0 +1,117 @@
+<div class="container">
+    <div class="row">
+        <div class="section-header">
+            <h2>{{ section.settings.title  }}</h2>
+            <p>{{ section.settings.content }}</p>
+
+            {% assign button = section.blocks | where: "type", "buttons" | first %}
+            {% if button != blank %}
+                <a href="{{ button.settings.button_link }}">{{ button.settings.button_label }}</a>
+            {% endif %}
+        </div>
+        <div class="section-content">
+            <ul class="clearfix">
+                <li>
+                    <div class="date">
+                        <a href="#">
+                            <span class="day">25</span>
+                            <span class="month">August</span>
+                            <span class="year">2016</span>
+                        </a>
+                    </div>
+                    <a href="#">
+                        <img src="{{ 'upcoming-event-1.jpg' | asset_url }}" alt="image">
+                    </a>
+                    <div class="info">
+                        <p>BMW Open Championship <span>San Francisco</span></p>
+                        <a href="#" class="get-ticket">Get Ticket</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="date">
+                        <a href="#">
+                            <span class="day">26</span>
+                            <span class="month">August</span>
+                            <span class="year">2016</span>
+                        </a>
+                    </div>
+                    <a href="#">
+                        <img src="{{ 'upcoming-event-2.jpg' | asset_url }}" alt="image">
+                    </a>
+                    <div class="info">
+                        <p>Kiai Kanjeng Orchestra <span>San Francisco</span></p>
+                        <a href="#" class="get-ticket">Get Ticket</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="date">
+                        <a href="#">
+                            <span class="day">27</span>
+                            <span class="month">August</span>
+                            <span class="year">2016</span>
+                        </a>
+                    </div>
+                    <a href="#">
+                        <img src="{{ 'upcoming-event-3.jpg' | asset_url }}" alt="image">
+                    </a>
+                    <div class="info">
+                        <p>Envato Author SF Meetup <span>San Francisco</span></p>
+                        <a href="#" class="get-ticket">Get Ticket</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Upcoming Events",
+  "tag": "section",
+  "class": "section-upcoming-events",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Upcoming Events",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.",
+      "label": "Content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "buttons",
+      "name": "Buttons 2",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "See all upcoming events",
+          "label": "Label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Upcoming Events",
+      "blocks": [
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
