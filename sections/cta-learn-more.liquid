@@ -1,0 +1,28 @@
+<style>
+.section-call-to-action .section-content {
+    background: url("{{ 'share-action.jpg' |  asset_url }}") no-repeat center center;
+}
+</style>
+<div class="container">
+    <div class="row">
+        <div class="section-content">
+            <ul class="row clearfix">
+                <li class="col-sm-12 col-md-9">
+                    <h3>Share experiences with your friends</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                </li>
+                <li class="col-sm-12 col-md-3">
+                    <a href="#" class="action-btn">Learn More</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "CTA Learn More",
+  "tag": "section",
+  "class": "section-call-to-action"
+}
+{% endschema %}

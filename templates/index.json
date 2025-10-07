@@ -39,6 +39,9 @@
     "recent_videos": {
       "type": "recent-videos"
     },
+    "cta_learn_more": {
+      "type": "cta-learn-more"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -75,6 +78,7 @@
     "event_by_categories",
     "stats",
     "recent_videos",
+    "cta_learn_more",
     "featured_collection"
   ]
 }
