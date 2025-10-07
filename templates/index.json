@@ -33,6 +33,9 @@
     "event_by_categories": {
       "type": "event-by-categories"
     },
+    "stats": {
+      "type": "stats"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -67,6 +70,7 @@
     "today_schedule",
     "upcoming_events",
     "event_by_categories",
+    "stats",
     "featured_collection"
   ]
 }
