@@ -30,6 +30,9 @@
         "button"
       ]
     },
+    "event_by_categories": {
+      "type": "event-by-categories"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -63,6 +66,7 @@
     "hero_banner",
     "today_schedule",
     "upcoming_events",
+    "event_by_categories",
     "featured_collection"
   ]
 }

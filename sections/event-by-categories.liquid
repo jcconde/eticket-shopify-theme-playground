@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row">
+        <div class="section-header">
+            <h2>Event by Categories</h2>
+        </div>
+        <div class="section-content">
+            <ul class="row clearfix">
+                <li class="category-1 col-sm-4">
+                    <img src="{{ 'event-category-1.jpg' | asset_url }}" alt="image">
+                    <a href="#"><span>Concerts</span></a>
+                </li>
+                <li class="category-2 col-sm-4">
+                    <img src="{{ 'event-category-2.jpg' | asset_url }}" alt="image">
+                    <a href="#"><span>Sports</span></a>
+                </li>
+                <li class="category-3 col-sm-4">
+                    <img src="{{ 'event-category-3.jpg' | asset_url }}" alt="image">
+                    <a href="#"><span>Threaters</span></a>
+                </li>
+                <li class="category-4 col-sm-4">
+                    <img src="{{ 'event-category-4.jpg' | asset_url }}" alt="image">
+                    <a href="#"><span>Parties</span></a>
+                </li>
+                <li class="category-5 col-sm-4">
+                    <img src="{{ 'event-category-5.jpg' | asset_url }}" alt="image">
+                    <a href="#"><span>Communities</span></a>
+                </li>
+                <li class="category-6 col-sm-4">
+                    <img src="{{ 'event-category-6.jpg' | asset_url }}" alt="image">
+                    <a href="#"><span>Classes</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Event by Categories",
+  "tag": "section",
+  "class": "section-event-category"
+}
+{% endschema %}
