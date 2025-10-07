@@ -12,6 +12,9 @@
     "hero_banner": {
       "type": "hero-banner"
     },
+    "today_schedule": {
+      "type": "today-schedule"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -43,6 +46,7 @@
   },
   "order": [
     "hero_banner",
+    "today_schedule",
     "featured_collection"
   ]
 }
