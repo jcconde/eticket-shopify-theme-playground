@@ -42,6 +42,9 @@
     "cta_learn_more": {
       "type": "cta-learn-more"
     },
+    "latest_news_and_tweets": {
+      "type": "latest-news-and-tweets"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -79,6 +82,7 @@
     "stats",
     "recent_videos",
     "cta_learn_more",
+    "latest_news_and_tweets",
     "featured_collection"
   ]
 }

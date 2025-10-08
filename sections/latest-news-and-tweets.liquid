@@ -1,0 +1,20 @@
+<section class="section-latest">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-8">
+            {% render 'latest-news' %}
+        </div>
+        <div class="col-sm-12 col-md-4">
+            {% render 'latest-tweets' %}
+        </div>
+    </div>
+</div>
+</section>
+
+{% schema %}
+{
+  "name": "Latest News & Tweets",
+  "tag": "section",
+  "class": "section-latest"
+}
+{% endschema %}
