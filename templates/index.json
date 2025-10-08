@@ -48,6 +48,9 @@
     "video_parallax": {
       "type": "video-parallax"
     },
+    "sponsors": {
+      "type": "sponsors"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -87,6 +90,7 @@
     "cta_learn_more",
     "latest_news_and_tweets",
     "video_parallax",
+    "sponsors",
     "featured_collection"
   ]
 }
