@@ -1,0 +1,21 @@
+<style>
+.section-video-parallax {
+    background: url("{{ 'video-parallax.jpg' | asset_url }}") no-repeat fixed center center;
+    background-size: cover;
+}
+</style>
+<div class="container">
+    <div class="section-content">
+        <h2>LIVE THERE</h2>
+        <p>Book events from anywhere in 191+ countries and get awesome experience Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+        <a href="#"><img src="{{ 'play-btn.png' | asset_url }}" alt="image"></a>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Video Parallax",
+  "tag": "section",
+  "class": "section-video-parallax"
+}
+{% endschema %}

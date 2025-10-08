@@ -45,6 +45,9 @@
     "latest_news_and_tweets": {
       "type": "latest-news-and-tweets"
     },
+    "video_parallax": {
+      "type": "video-parallax"
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -83,6 +86,7 @@
     "recent_videos",
     "cta_learn_more",
     "latest_news_and_tweets",
+    "video_parallax",
     "featured_collection"
   ]
 }
