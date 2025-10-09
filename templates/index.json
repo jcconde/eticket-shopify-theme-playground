@@ -51,6 +51,25 @@
     "sponsors": {
       "type": "sponsors"
     },
+    "newsletter": {
+      "type": "newsletter-eticket",
+      "blocks": {
+        "heading": {
+          "type": "heading"
+        },
+        "paragraph": {
+          "type": "paragraph"
+        },
+        "newsletter_form": {
+          "type": "newsletter_form"
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "newsletter_form"
+      ]
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -91,6 +110,7 @@
     "latest_news_and_tweets",
     "video_parallax",
     "sponsors",
+    "newsletter",
     "featured_collection"
   ]
 }
