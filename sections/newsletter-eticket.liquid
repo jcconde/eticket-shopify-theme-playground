@@ -1,4 +1,8 @@
 {%- style -%}
+  .section-newsletter {
+    background: url("{{ 'newsletter.jpg' | asset_url }}") no-repeat center center;
+    background-size: cover;
+  }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
