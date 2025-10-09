@@ -52,7 +52,7 @@
       "type": "sponsors"
     },
     "newsletter": {
-      "type": "newsletter-eticket",
+      "type": "newsletter",
       "blocks": {
         "heading": {
           "type": "heading"
