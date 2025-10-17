@@ -12,7 +12,8 @@
   "type": "header",
   "sections": {
     "top-header": {
-      "type": "top-header"
+      "type": "top-header",
+      "settings": {}
     },
     "header": {
       "type": "header",
