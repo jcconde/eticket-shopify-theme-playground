@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="top-left">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-phone"></i>
+                        {{ settings.contact_phone }}
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:{{ settings.contact_email }}">
+                        <i class="fa fa-envelope-o"></i>
+                        {{ settings.contact_email }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <ul>
+                <li>
+                    <a href="#">Sign In</a>
+                </li>
+                <li>
+                    <a href="#">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Top Header",
+  "class": "top-header top-header-bg"
+}
+{% endschema %}

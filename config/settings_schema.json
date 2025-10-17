@@ -1460,5 +1460,24 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Contact Informaction",
+    "settings": [
+      {
+        "type": "text",
+        "id": "contact_phone",
+        "label": "Phone",
+        "default": "+62274 889767",
+        "placeholder": "+62274 889767"
+      },
+      {
+        "type": "text",
+        "id": "contact_email",
+        "label": "Email",
+        "default": "hello@myticket.com",
+        "placeholder": "hello@myticket.com"
+      }
+    ]
   }
 ]
