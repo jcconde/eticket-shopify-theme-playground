@@ -10,10 +10,12 @@
 {
   "sections": {
     "hero_banner": {
-      "type": "hero-banner"
+      "type": "hero-banner",
+      "settings": {}
     },
     "today_schedule": {
-      "type": "today-schedule"
+      "type": "today-schedule",
+      "settings": {}
     },
     "upcoming_events": {
       "type": "upcoming-events",
@@ -28,65 +30,76 @@
       },
       "block_order": [
         "button"
-      ]
+      ],
+      "settings": {}
     },
     "event_by_categories": {
-      "type": "event-by-categories"
+      "type": "event-by-categories",
+      "settings": {}
     },
     "stats": {
-      "type": "stats"
+      "type": "stats",
+      "settings": {}
     },
     "recent_videos": {
-      "type": "recent-videos"
+      "type": "recent-videos",
+      "settings": {}
     },
     "cta_learn_more": {
-      "type": "cta-learn-more"
+      "type": "cta-learn-more",
+      "settings": {}
     },
     "latest_news_and_tweets": {
-      "type": "latest-news-and-tweets"
+      "type": "latest-news-and-tweets",
+      "settings": {}
     },
     "video_parallax": {
-      "type": "video-parallax"
+      "type": "video-parallax",
+      "settings": {}
     },
     "sponsors": {
-      "type": "sponsors"
+      "type": "sponsors",
+      "settings": {}
     },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {}
         },
         "paragraph": {
-          "type": "paragraph"
+          "type": "paragraph",
+          "settings": {}
         },
         "newsletter_form": {
-          "type": "newsletter_form"
+          "type": "newsletter_form",
+          "settings": {}
         }
       },
       "block_order": [
         "heading",
         "paragraph",
         "newsletter_form"
-      ]
+      ],
+      "settings": {}
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "all",
+        "products_to_show": 8,
         "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -94,6 +107,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
       }
