@@ -36,6 +36,7 @@
 > Event Single
 > Full Event Schedule
 > Site Footer
+> Product Detail Page
 
 
   
@@ -4939,4 +4940,13 @@ body{
 	 min-height: 92px;
 }
 
+/*--------------------------------------------------------------
+	Product Detail Page
+--------------------------------------------------------------*/
 
+.slider {
+    display: block;
+}
+.media {
+    margin-top: 0;
+}
