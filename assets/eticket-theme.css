@@ -402,7 +402,7 @@ body{
 	font-size:22px;
 	font-family: "Montserrat-Light";
 	width:710px;
-	background:rgba(240,243,243, 0.2) url(../images/search.png)no-repeat 93% center;
+	background:rgba(240,243,243, 0.2) url(search.png)no-repeat 93% center;
 	border-radius:50px;
 	margin:0 auto;
 }
@@ -445,7 +445,7 @@ body{
 
 .hero-2{
 	position:relative;
-	background:url(../images/hero-2-img.jpg) no-repeat center center;
+	background:url(hero-2-img.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -569,7 +569,7 @@ body{
 
 .hero-3{
 	position:relative;
-	background:url(../images/hero-3-img.jpg) no-repeat center center;
+	background:url(hero-3-img.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -776,7 +776,7 @@ body{
 	content: "";
 	width:6px;
 	height:10px;
-	background:url(../images/events-arrow.png);
+	background:url(events-arrow.png);
 	display:block;
 	position:absolute;
 	top:10px;
@@ -791,7 +791,7 @@ body{
 	content: "";
 	width:20px;
 	height:19px;
-	background:url(../images/events-clock.png);
+	background:url(events-clock.png);
 	display:block;
 	position:absolute;
 	bottom:-10px;
@@ -804,7 +804,7 @@ body{
 	content: "";
 	width:7px;
 	height:8px;
-	background:url(../images/events-dot.png);
+	background:url(events-dot.png);
 	display:block;
 	position:absolute;
 	bottom:-4px;
@@ -1121,7 +1121,7 @@ body{
 .section-calendar-events .section-header .scrtabs-tab-scroll-arrow-left{
 	width:22px;
 	height:29px;
-	background:url(../images/calendar-events-arrow-left.png) no-repeat center center;
+	background:url(calendar-events-arrow-left.png) no-repeat center center;
 	border:none;
 	position:absolute;
 	left:-30px;
@@ -1132,7 +1132,7 @@ body{
 .section-calendar-events .section-header .scrtabs-tab-scroll-arrow-right{
 	width:22px;
 	height:29px;
-	background:url(../images/calendar-events-arrow-right.png) no-repeat center center;
+	background:url(calendar-events-arrow-right.png) no-repeat center center;
 	border:none;
 	position:absolute;
 	right:-30px;
@@ -1476,7 +1476,7 @@ body{
 
 .section-stats{
 	padding:100px 0;
-	background: url(../images/stats.jpg) no-repeat center center;
+	background: url(stats.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1529,7 +1529,7 @@ body{
 
 .section-call-to-action .section-content{
 	padding:50px;
-	background:url(../images/share-action.jpg) no-repeat center center;
+	background:url(share-action.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1833,7 +1833,7 @@ body{
 
 .section-video-parallax{
 	padding:100px 0;
-	background:url(../images/video-parallax.jpg)no-repeat fixed center center;
+	background:url(video-parallax.jpg)no-repeat fixed center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1889,7 +1889,7 @@ body{
 
 .section-newsletter{
 	padding:90px 0;
-	background:url(../images/newsletter.jpg) no-repeat center center;
+	background:url(newsletter.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -2124,13 +2124,13 @@ body{
 }
 
 .section-refine-search .event-date .bootstrap-select .btn-default{
-	background:#fff url(../images/calendar.png) no-repeat 85% center;
+	background:#fff url(calendar.png) no-repeat 85% center;
 	padding:0 60px 0 27px;
 }
 
 
 .section-refine-search .bootstrap-select .bs-caret > span {
-    background: rgba(0, 0, 0, 0) url(../images/search-select.png) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(search-select.png) repeat scroll 0 0;
     border: medium none !important;
     display: block;
     height: 8px;
@@ -2432,7 +2432,7 @@ body{
 
 .section-select-seat-featured-header{
 	min-height:322px;
-	background: url(../images/page-featured-img-2.jpg)no-repeat center center;
+	background: url(page-featured-img-2.jpg)no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -2442,7 +2442,7 @@ body{
 
 .section-select-seat-featured-header:before{
 	content: "";
-	background: url(../images/overlay.png);
+	background: url(overlay.png);
 	position:absolute;
 	top:0;
 	bottom:0;
@@ -2528,7 +2528,7 @@ body{
 
 .section-select-seat-2-featured-header{
 	min-height:322px;
-	background: url(../images/page-featured-img.jpg)no-repeat center center;
+	background: url(page-featured-img.jpg)no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -2538,7 +2538,7 @@ body{
 
 .section-select-seat-2-featured-header:before{
 	content: "";
-	background: url(../images/overlay.png);
+	background: url(overlay.png);
 	position:absolute;
 	top:0;
 	bottom:0;
@@ -2679,7 +2679,7 @@ body{
 	display:block;
 	width:14px;
 	height:7px;
-	background:url(../images/select-arrow.png);
+	background:url(select-arrow.png);
 	border:none!important;
 }
 
@@ -2761,7 +2761,7 @@ body{
 	margin:0 auto;
 	font-family: "Montserrat-Light";
 	padding:0 0 0 57px;
-	background: url(../images/info.png) no-repeat left center;
+	background: url(info.png) no-repeat left center;
 }
 
 .tickets label{
@@ -3307,7 +3307,7 @@ body{
 --------------------------------------------------------------*/
 
 .section-download-ticket{
-	background:#fff url(../images/download-ticket-bg.png) no-repeat center top;
+	background:#fff url(download-ticket-bg.png) no-repeat center top;
 	text-align:center;
 	padding:50px 0 0;
 }
@@ -3347,7 +3347,7 @@ body{
 --------------------------------------------------------------*/
 
 .section-page-content.error-404{
-	background:#edeef4 url(../images/error-page-bg.jpg) no-repeat center bottom!important;
+	background:#edeef4 url(error-page-bg.jpg) no-repeat center bottom!important;
 	padding:120px 0
 }
 
@@ -3392,7 +3392,7 @@ body{
 
 .section-featured-header.all-sports-events{
 	min-height:322px;
-	background: url(../images/page-featured-img-category.jpg) no-repeat center center;
+	background: url(page-featured-img-category.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -3402,7 +3402,7 @@ body{
 
 .section-featured-header.all-sports-events:before{
 	content: "";
-	background: url(../images/overlay.png);
+	background: url(overlay.png);
 	position:absolute;
 	top:0;
 	bottom:0;
@@ -3429,7 +3429,7 @@ body{
 
 .section-featured-header.order-tickets-without-seat{
 	min-height:322px;
-	background: url(../images/page-featured-img-order-ticket.jpg)no-repeat center center;
+	background: url(page-featured-img-order-ticket.jpg)no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -3439,7 +3439,7 @@ body{
 
 .section-featured-header.order-tickets-without-seat:before{
 	content: "";
-	background: url(../images/overlay.png);
+	background: url(overlay.png);
 	position:absolute;
 	top:0;
 	bottom:0;
@@ -3695,7 +3695,7 @@ body{
 --------------------------------------------------------------*/
 
 .section-artist-featured-header {
-    background: url(../images/page-featured-img-artist.jpg) no-repeat center center;
+    background: url(page-featured-img-artist.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -3705,7 +3705,7 @@ body{
 }
 
 .section-artist-featured-header:before {
-    background: rgba(0, 0, 0, 0) url(../images/overlay.png) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(overlay.png) repeat scroll 0 0;
     bottom: 0;
     content: "";
     left: 0;
@@ -4228,7 +4228,7 @@ body{
 .featherlight-close{
 	width:46px!important;
 	height:46px!important;
-	background:url(../images/close.png) no-repeat!important;
+	background:url(close.png) no-repeat!important;
 	text-indent:-99999px;
 	display:block;
 	opacity:1;
@@ -4251,7 +4251,7 @@ body{
 --------------------------------------------------------------*/
 
 .section-event-single-featured-header {
-    background: url(../images/page-featured-img-event.jpg) no-repeat center center;
+    background: url(page-featured-img-event.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -4261,7 +4261,7 @@ body{
 }
 
 .section-event-single-featured-header:before {
-    background: rgba(0, 0, 0, 0) url(../images/overlay.png) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url(overlay.png) repeat scroll 0 0;
     bottom: 0;
     content: "";
     left: 0;
@@ -4606,7 +4606,7 @@ body{
 .section-full-events-schedule .section-header .scrtabs-tab-scroll-arrow-left{
 	width:22px;
 	height:29px;
-	background:url(../images/calendar-events-arrow-left.png) no-repeat center center;
+	background:url(calendar-events-arrow-left.png) no-repeat center center;
 	border:none;
 	position:absolute;
 	left:-30px;
@@ -4617,7 +4617,7 @@ body{
 .section-full-events-schedule .section-header .scrtabs-tab-scroll-arrow-right{
 	width:22px;
 	height:29px;
-	background:url(../images/calendar-events-arrow-right.png) no-repeat center center;
+	background:url(calendar-events-arrow-right.png) no-repeat center center;
 	border:none;
 	position:absolute;
 	right:-30px;
@@ -4646,7 +4646,7 @@ body{
 	content: " ";
 	width:20px;
 	height:19px;
-	background:url(../images/schedule-clock.png);
+	background:url(schedule-clock.png);
 	display:block;
 	position:absolute;
 	top:34px;
@@ -4657,7 +4657,7 @@ body{
 	content: " ";
 	width:6px;
 	height:10px;
-	background:url(../images/events-arrow.png);
+	background:url(events-arrow.png);
 	display:block;
 	position:absolute;
 	top:45%;
